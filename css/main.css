@@ -220,3 +220,9 @@ h2.title {
     animation: liquid-color 80s infinite, swirl 1s ease-in-out infinite alternate;
     animation-delay: 0s, 2s;
 }
+
+.content-wrap {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
