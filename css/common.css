@@ -1,0 +1,19 @@
+body {
+    padding-top: 60px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.navbar-default {
+    background-color: #3B305F;
+}
+
+nav a {
+    color: #ffffff !important;
+}
+
+nav a:hover {
+    color: #eeeeee;
+}
