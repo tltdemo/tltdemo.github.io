@@ -1,11 +1,18 @@
 [
     {
+        "id": 1,
         "title": "Responsive scroll icon", 
         "url": "/craft/1",
         "tags": ["html","css"]
     }, {
+        "id": 2,
         "title": "Material Design Transition Popup", 
         "url": "/craft/2",
         "tags": ["css3","html","jquery","material design"]
+    }, {
+        "id": 3,
+        "title": "How to change the color of address bar in mobile browser to match your website", 
+        "url": "/craft/3",
+        "tags": ["html"]
     }
 ]
