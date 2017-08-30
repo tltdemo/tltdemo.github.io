@@ -18,7 +18,6 @@ app.controller('commonCtrl', ['$scope', '$http', function($scope, $http) {
                 uniqueTag[allTags[i]] = 1;
             } 
         }
-        console.log(uniqueTag);
         $scope.uniqueTags = uniqueTag;
     });
 }])
