@@ -43,6 +43,12 @@
 
 	<div class="content-wrap">
 		<div class="container">
+			<div class="row tags">
+				<div class="col-md-2 col-sm-3 col-xs-6 text-center tag" ng-repeat="(key, value) in uniqueTags">
+					<div class="value">{{value}}</div>
+					<div class="key">{{key}}</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<input type="text" class="form-control" placeholder="Search..." ng-model="search">
@@ -52,7 +58,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="list-group">
-						<a class="list-group-item" ng-repeat="item in list | filter:search" ng-href="{{item.url}}"><span class="badge">&gt;</span>{{item.title}}</a>
+						<a class="list-group-item" ng-repeat="item in list | filter:search" ng-href="{{item.url}}"><span class="badge"><span class="glyphicon glyphicon-chevron-right"></span></span>{{item.title}}</a>
 					</div>
 				</div>
 			</div>

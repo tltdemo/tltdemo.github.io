@@ -226,3 +226,44 @@ h2.title {
     top: 100%;
     width: 100%;
 }
+
+.tags {
+    margin-bottom: 50px;
+}
+
+.tags .value {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.tags .key {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.tags .tag:nth-child(1) .key {
+    color: #ffa200;
+}
+
+.tags .tag:nth-child(2) .key {
+    color: #00a03e;
+}
+
+.tags .tag:nth-child(3) .key {
+    color: #73c5e1;
+}
+
+.tags .tag:nth-child(4) .key {
+    color: #0087cb;
+}
+
+.tags .tag:nth-child(5) .key {
+    color: #982395;
+}
+
+.tags .tag:nth-child(6) .key {
+    color: #eb65a0;
+}
