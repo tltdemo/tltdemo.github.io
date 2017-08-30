@@ -13,18 +13,35 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="well">
-			<h1 class="title">Responsive scroll icon</h1>
-			<p>Check it out on all your devices. On desktop it shows mouse icon. On mobile it shows phone icon.</p>
+	<div>
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation"><a href="#html" aria-controls="html" role="tab" data-toggle="tab">HTML</a></li>
+			<li role="presentation"><a href="#css" aria-controls="css" role="tab" data-toggle="tab">CSS</a></li>
+			<li role="presentation" class="active"><a href="#demo" aria-controls="demo" role="tab" data-toggle="tab">DEMO</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane" id="html">HTML</div>
+			<div role="tabpanel" class="tab-pane" id="css">CSS</div>
+			<div role="tabpanel" class="tab-pane active" id="demo">
+				<div class="container">
+					<div class="well">
+						<h1 class="title">Responsive scroll icon</h1>
+						<p>Check it out on all your devices. On desktop it shows mouse icon. On mobile it shows phone icon.</p>
+					</div>
+				</div>
+				<div class='icon-scroll'>
+					<div class="icon-scroll-screen"></div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class='icon-scroll'>
-		<div class="icon-scroll-screen"></div>
-	</div>
-	
+
 	<div id="shared-plugin"></div>
 	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
 	<script src="../../js/common.js"></script>
 </body>
 
