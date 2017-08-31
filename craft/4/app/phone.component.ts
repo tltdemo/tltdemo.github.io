@@ -2,7 +2,8 @@ import { Component, Input } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 
 @Component({
-    selector: 'phone',
+     moduleId: module.id,
+     selector: 'phone',
      templateUrl: 'phone.component.html',
 })
 export class PhoneComponent {
