@@ -25,4 +25,6 @@ nav a:hover {
 .gist-meta a:nth-child(2) {
     visibility: visible;
     color: #3B305F;
+    pointer-events: none;
+    cursor: default;
 }
