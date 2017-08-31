@@ -17,3 +17,12 @@ nav a {
 nav a:hover {
     color: #eeeeee;
 }
+
+.gist-meta {
+    visibility: hidden;
+}
+
+.gist-meta a:nth-child(2) {
+    visibility: visible;
+    color: #3B305F;
+}
