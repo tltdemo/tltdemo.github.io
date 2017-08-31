@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="yellow">
+	<meta name="theme-color" content="#FFFF00">
 	<title>How to change the color of address bar in mobile browser to match your website</title>
 	<link rel="icon" href="../../img/favicon.png" />
 	<link rel="stylesheet" href="../../css/bootstrap.min.css" />
@@ -13,13 +13,36 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="well">
-			<p>Open it in your mobile browser and see the address bar color has changed. Here it is yellow.</p>
+	<div>
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation"><a href="#html" aria-controls="html" role="tab" data-toggle="tab">HTML</a></li>
+			<li role="presentation" class="active"><a href="#demo" aria-controls="demo" role="tab" data-toggle="tab">DEMO</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane" id="html">
+				<pre>
+&lt;head&gt;
+  &lt;meta name=&quot;theme-color&quot; content=&quot;#FFFF00&quot;&gt;
+&lt;/head&gt;
+				</pre>
+			</div>
+			<div role="tabpanel" class="tab-pane active" id="demo">
+				<div class="container">
+					<div class="well">
+						<p>Open it in your mobile browser and see the address bar color has changed. Here it is yellow.</p>
+					</div>
+				</div>
+			</div>
 		</div>
+
 	</div>
+
 	<div id="shared-plugin"></div>
 	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
 	<script src="../../js/common.js"></script>
 </body>
 
