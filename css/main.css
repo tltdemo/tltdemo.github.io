@@ -267,3 +267,11 @@ h2.title {
 .tags .tag:nth-child(6) .key {
     color: #eb65a0;
 }
+
+.tags .tag:nth-child(7) .key {
+    color: #ffd900;
+}
+
+.tags .tag:nth-child(8) .key {
+    color: #ccc51c;
+}
