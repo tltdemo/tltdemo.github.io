@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Make modal to slide from right in ionic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> 
+  <link rel="icon" href="../../img/favicon.png" />
+	<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+	
+  <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+  <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+  
+  <link rel="stylesheet" href="../../css/common.css" />
+
+  <link href="style.css" rel="stylesheet">
+  <script src="app.js"></script>
+
+</head>
+
+<body ng-app="app" ng-controller="appCtrl">
+  <div>
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation"><a href="#html" aria-controls="html" role="tab" data-toggle="tab">HTML</a></li>
+			<li role="presentation"><a href="#css" aria-controls="css" role="tab" data-toggle="tab">CSS</a></li>
+			<li role="presentation"><a href="#js" aria-controls="js" role="tab" data-toggle="tab">JS</a></li>
+			<li role="presentation" class="active"><a href="#demo" aria-controls="demo" role="tab" data-toggle="tab">DEMO</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane" id="html">
+				<script src="https://gist.github.com/vivinantony/b229321f6e5d10cdc3cbc240830b34c0.js?file=index.html"></script>
+			</div>
+      <div role="tabpanel" class="tab-pane" id="css">
+				<script src="https://gist.github.com/vivinantony/b229321f6e5d10cdc3cbc240830b34c0.js?file=style.css"></script>
+			</div>
+      <div role="tabpanel" class="tab-pane" id="js">
+				<script src="https://gist.github.com/vivinantony/b229321f6e5d10cdc3cbc240830b34c0.js?file=app.js"></script>
+			</div>
+			<div role="tabpanel" class="tab-pane active" id="demo">
+				<div class="custom-btn" ng-click="openModal()"><i class="icon ion-android-hand"></i></div>
+  
+        <script id="templates/modal.html" type="text/ng-template">
+          <ion-modal-view>
+            <ion-header-bar class="bar-energized">
+              <button class="button button-clear" ng-click="closeModal()">
+                  <i class="icon ion-android-close"></i>
+              </button>
+              <h1 class="title">The Little Techie</h1>
+            </ion-header-bar>
+            <ion-content class="text-center">
+              <p>Hello!</p>
+              <p>Did you notice, this modal slided from right...</p>
+              <p><a href="http://www.thelittletechie.com/">www.thelittletechie.com</a></p>
+          </ion-content>
+        </ion-modal-view>
+        </script>
+        
+			</div>
+		</div>
+
+	</div>
+
+  <div id="shared-plugin"></div>
+	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+	<script src="../../js/common.js"></script>
+</body>
+</html>

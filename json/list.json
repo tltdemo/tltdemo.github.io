@@ -19,5 +19,10 @@
         "title": "Model Driven Forms in Angular 2", 
         "url": "/craft/4",
         "tags": ["angular 2"]
+    }, {
+        "id": 5,
+        "title": "Make modal to slide from right in ionic", 
+        "url": "/craft/5",
+        "tags": ["angularjs","css3","ionic"]
     }
 ]
